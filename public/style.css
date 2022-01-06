@@ -1,0 +1,224 @@
+/*body{
+
+    background-color: indianred;
+    
+    zasto ne vuce iz bodija????
+}
+*/
+
+.border-black {
+  border: 1px solid black;
+}
+
+.button-haircut {
+  background: gray;
+  border: 2px solid black;
+  outline: none;
+  font-size: 20px;
+}
+
+.page-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.salon-left-side-image {
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+iframe {
+  border: 2px solid black;
+}
+
+.salon-left-side-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.salon-left-side-email {
+  font-size: 20px;
+}
+
+.salon-left-side-telephone-number {
+  font-size: 20px;
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.salon-left-side-text {
+  font-size: 20px;
+}
+
+/* a{
+  color: white !important;
+} */
+
+.schedule {
+  height: 250px;
+  background: white;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.schedule-side {
+  background: url(../images6/logo.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.border {
+  border: 3px solid yellow;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-link:hover {
+  color: rgb(95, 81, 81) !important;
+}
+
+a.nav-link {
+  color: aliceblue !important;
+}
+
+.header {
+  box-shadow: 1px 2px 10px 5px whitesmoke;
+
+  background: url(https://wallpaperbat.com/img/322713-res-2048x1152-beauty-salon-wallpaper-salon.jpg);
+
+  background-size: cover;
+
+  color: rgb(10, 10, 10);
+
+  height: 350px;
+
+  animation: slider 11s infinite linear;
+}
+
+@keyframes slider {
+  0% {
+    background: url(https://wallpaperbat.com/img/322713-res-2048x1152-beauty-salon-wallpaper-salon.jpg);
+  }
+  35% {
+    background: url(https://wallpaperaccess.com/full/3717113.jpg);
+  }
+  75% {
+    background: url(https://www.lalique-coiffure-santorini.com/images/sliders/1110866.jpg);
+  }
+}
+
+.header-title {
+  font-size: 90px;
+  text-align: center;
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header-sub {
+  font-family: "Lora", serif;
+  text-align: center;
+  font-style: italic;
+  font-size: 60px;
+}
+
+.header-sub-text {
+  font-family: "Times New Roman", Times, serif;
+  /* text-align: justify;
+text-align: center; */
+  font-size: 25px;
+}
+
+.header-sub-text2 {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Comforter Brush", cursive;
+}
+
+.anchor-default {
+  color: white;
+}
+
+.anchor-default:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.salon-background {
+  height: 450px;
+  width: 100%;
+  /* background-color: white; */
+  background: url(../images6/salon.jpg);
+  background-position: center;
+  border: 5px solid #343a40;
+}
+
+.services {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.scheldue {
+  height: 250px;
+  width: 50%;
+  text-align: center;
+  font-size: 19px;
+}
+
+.services-dame {
+  padding-top: 20px;
+  padding-left: 100px;
+  float: left;
+}
+
+.services-gospoda {
+  padding-top: 20px;
+  padding-right: 100px;
+  float: right;
+}
+
+.products {
+  /* text-align: center; */
+  /* font-size: 40px; */
+  height: 100vh;
+  font-family: "Playfair Display", serif;
+}
+
+.sub-products {
+  font-size: 20px;
+}
+
+.products-input {
+  width: 100%;
+}
+
+#haircuts-female,
+#fan-female,
+#coloring-1,
+#coloring-2,
+#haircut-pramen,
+#haircut-val,
+#haircuts-male {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.section-style {
+  background-color: #343a40;
+  color: whitesmoke;
+  border: 2px solid grey;
+}
+
+button:hover {
+  opacity: 0.8;
+}
